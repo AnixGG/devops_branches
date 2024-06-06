@@ -5,4 +5,7 @@ def plus_plus(n):
 def factorial(n):
     if n == 0:
         return 1
-    return n
+    c = 1
+    for i in range(n):
+        c *= i
+    return c
