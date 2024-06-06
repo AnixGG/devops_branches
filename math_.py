@@ -3,4 +3,6 @@ def plus_plus(n):
 
 
 def factorial(n):
-    pass
+    if n == 0:
+        return 1
+    return n
