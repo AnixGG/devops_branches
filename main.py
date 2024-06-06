@@ -2,6 +2,10 @@ def welcome():
     print("Hello friend!")
 
 
+def get_data():
+    return input()
+
+
 def goodbye():
     print("Goodbye!")
 
