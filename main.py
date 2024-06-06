@@ -3,7 +3,7 @@ def welcome():
 
 
 def goodbye():
-    print("How are u?")
+    print("Goodbye!")
 
 
 if __name__ == "__main__":
