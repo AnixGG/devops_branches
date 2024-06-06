@@ -3,7 +3,7 @@ def welcome():
 
 
 def get_data():
-    return input()
+    return input("Напишите целое число: ")
 
 
 def goodbye():
