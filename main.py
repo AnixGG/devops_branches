@@ -4,9 +4,9 @@ def welcome():
 
 def get_data():
     n = input("Напишите натуральное число: ")
-    while not isinstance(n, int) or n < 1:
+    while not n.isdigit() or int(n) < 1:
         n = input("Напишите натуральное число: ")
-    return n
+    return int(n)
 
 
 def goodbye():
