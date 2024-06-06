@@ -1,3 +1,6 @@
+from math_ import *
+
+
 def welcome():
     print("Hello friend!")
 
@@ -14,4 +17,8 @@ def goodbye():
 
 
 if __name__ == "__main__":
-    pass
+    welcome()
+    n = get_data()
+    fact = factorial(plus_plus(n))
+    print(minus_minus(fact))
+    goodbye()
