@@ -3,7 +3,10 @@ def welcome():
 
 
 def get_data():
-    return input("Напишите целое число: ")
+    n = input("Напишите натуральное число: ")
+    while not isinstance(n, int) or n < 1:
+        n = input("Напишите натуральное число: ")
+    return n
 
 
 def goodbye():
