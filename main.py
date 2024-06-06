@@ -1,5 +1,5 @@
 def welcome():
-    print("Hello friendddd!")
+    print("Hello friend!")
 
 
 if __name__ == "__main__":
